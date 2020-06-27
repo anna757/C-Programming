@@ -1,1 +1,0 @@
-//program that tests whether a string contains a palindrome
