@@ -5,12 +5,12 @@
         int sum = 0;
         int sum2 = 0;
         for (int i = 0; i < 5; i++) {
-            printf("Enter row %d:", i + 1);
+            printf("row %d:", i + 1);
             for (int j = 0; j < 5; j++) {
                 printf(" %d", array[i][j]);
                 sum += array[i][j];
                 sum2 += array[j][i];
-
+\
             }
             printf("\n sum of rows: %d\n sum of columns: %d\n", sum, sum2);
             sum = 0;
